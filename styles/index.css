@@ -1,0 +1,201 @@
+/* Done by keshav */
+
+#navbarParent {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navItemsParent {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#logo {
+    height: 30px;
+    padding: 3px;
+}
+
+#deadSpace {
+    flex-grow: 1;
+}
+
+.navChild {
+    font-size: medium;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+#CTA {
+    padding: 3px;
+}
+
+.btn {
+    border: 1px solid palevioletred;
+    background-color: white;
+    color: palevioletred;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+@media only screen and (max-width: 768px) {
+    #navItemsParent {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .navChild {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+
+
+/* Done by Mayank */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+#parentdiv{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgb(165, 125, 150);
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#search{
+    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2px;
+}
+#blankspace{ 
+    flex-grow: 1;
+}
+    
+/* #logoimg{
+    height: 50px;
+    width:50px;
+} */
+.list{
+    font-size: 18px;
+}
+#secondparent{
+
+    height: 550px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#secondparentchild1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    /* box-shadow: 5px 5px 6px 6px black; */
+
+}
+
+/* #para{
+
+    
+    
+} */
+#img2{
+    
+    height: 50px;
+  
+}
+#secondparentchild1box1{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+}
+#picture{
+    width: 50%;
+    height: 100%;
+    
+}
+#img2{
+    height :100%;
+    width: 100%;
+
+}
+#childpara{
+    text-align: justify;
+
+}
+/* .btn{ */
+    /* background-color: black; */
+    /* color: white;
+    
+
+} */
+#input1{
+    border-radius: 4px;
+}
+#input2{
+    border-radius: 15px;
+    color: rgb(230, 95, 185);
+
+}
+#heading{
+    color: rgb(230, 95, 185);
+
+
+}
+/* .btn:hover{
+    background-color: black;
+    color: white;
+} */
